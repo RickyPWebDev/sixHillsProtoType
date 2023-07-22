@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="top">
+        <p class="six-hills">Welcome to Nep Six hills Welding & Bearing Supplies</p>
+    </div>
+    
+    <div class="logo-section">
+        <img class="nep" src="imgs/nep.jpeg" alt="nep company logo">
+        <h2 class="phone">0166 448 0801</h2>
+    </div>
+
+    <div class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="#">Products</a>
+        <a href="contact-us.html">Contact Us</a>
+        <img class="basket" src="imgs/shopping-cart.png">
+    </div>
+
+    
+
+    <div id="panel"></div>
+    <!-- To make it email we need to put inside the form element
+      "sales@nepltd.co.uk."-->
+  
+    <div class="form-container">
+        <form onsubmit="return false">
+            <H3>Contact us</H3>
+             <input type="text" id="name" placeholder="Enter your name" >
+             <input type="email" id="email" placeholder="Email id" >
+             <input type="text" id="phone" placeholder="phone no." >
+             <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+             <button id="myBtn" type="submit" onClick="init(),scrollFunction(),topFunction()">Submit</button>
+        </form>
+
+
+
+    </div>
+
+
+    <footer>
+        <p class="footer-landing">Six Hills Prototype Landing Page</p>
+    </footer>
+
+</body>
+</html>
